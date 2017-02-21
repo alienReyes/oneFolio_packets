@@ -1,0 +1,63 @@
+body {
+
+  height: 100%;
+}
+html {
+  height: 500%;
+  overflow: scroll;;
+};
+#mainTitle {
+  color:white;
+}
+
+.jumbotron {
+ background-color:transparent!important;
+max-height: 150px;
+
+}
+
+#videoContainer {
+  width:850px;
+  height: 500px;
+  overflow: hidden!important;
+  margin: 0 25%;
+}
+
+
+#thumbsContainer
+{
+  overflow: auto;
+
+}
+
+
+
+
+
+.thumbElement {
+
+  cursor: pointer;
+  min-height: 165px;
+  color:white;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background-color: darken($blue,35%);
+  transition: all 1s ease;
+  h2 {
+    margin: 10px;
+    text-align: left;
+  }
+  img {
+    margin-top:15px;
+  }
+
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .4);
+
+  }
+
+
+
+}
