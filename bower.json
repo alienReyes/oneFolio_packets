@@ -21,7 +21,8 @@
     "mustache.js": "mustache#^2.3.0",
     "gsap": "^1.19.1",
     "bootstrap": "v4.0.0-alpha.6",
-    "tether": "^1.4.0"
+    "tether": "^1.4.0",
+    "filament-sticky": "fixed-sticky#^0.1.7"
   },
   "devDependencies": {}
 }

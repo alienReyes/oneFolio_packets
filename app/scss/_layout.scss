@@ -1,0 +1,35 @@
+.container {
+  padding-top:35px;
+  z-index: 500;
+  min-height: 500px;
+}
+.color-block {
+  height: 450px;
+  width: 100%;
+
+  background-color: $darkblue;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+.content-col {
+  background-color: #fff;
+}
+table {
+  margin-top:15px;
+  margin-bottom: 15px;
+  border: 1px solid $darkblue;
+  td {
+    padding: 10px;
+  }
+  .table-item {
+    background-color: $darkblue;
+    color: white;
+  }
+  th {
+
+  }
+}
+.list--letters {
+  list-style: lower-alpha;
+}
